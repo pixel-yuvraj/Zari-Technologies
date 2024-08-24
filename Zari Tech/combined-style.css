@@ -41,10 +41,10 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: flex-end; /* Aligns the menu to the right */
+    justify-content: flex-end; 
     position: absolute;
-    top: 20px;  /* Position it near the top */
-    right: 20px; /* Position it near the right edge */
+    top: 20px;  
+    right: 20px; 
     width: auto;
 }
 
@@ -59,10 +59,10 @@ nav {
 .logo {
      position: absolute;
      justify-content: flex-start;
-     top: 10px; /* Adjust as needed */
-     left: 10px; /* Adjust as needed */
-     width: 140px; /* Adjust size if necessary */
-     z-index: 10; /* Ensure it is above other elements */
+     top: 10px; 
+     left: 10px; 
+     width: 140px; 
+     z-index: 10; 
     
     
 }
@@ -70,7 +70,7 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    margin-left: auto; /* Push menu to the right */
+    margin-left: auto; 
 }
 
 nav ul li {
@@ -99,9 +99,9 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
-/* Updated welcome message color */
+
 .header-text {
-    color: #ff7f50; /* Changed color */
+    color: #ff7f50; 
     text-align: center;
     font-size: 30px;
     margin-top: 20px;
@@ -117,17 +117,17 @@ nav ul li a:hover::after {
 
 .btn-styled {
     display: inline-block;
-    padding: 15px 30px; /* Increased padding for a better shape */
+    padding: 15px 30px; 
     background-color: #00FF00;
     color: #000;
     border: none;
-    border-radius: 30px; /* Rounded edges for a circular rectangle */
+    border-radius: 30px;
     font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 20px;
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
     text-align: center;
 }
 
@@ -162,7 +162,7 @@ nav ul li a:hover::after {
     color: #333;
 }
 
-/* Adding spacing between paragraphs in the About section */
+
 #about p {
     margin-bottom: 20px;
 }
